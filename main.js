@@ -32,3 +32,24 @@ function createCards(id,producto, precio) {
     let btn = document.createElement('button')
     div.append(h3, p , btn)
 }
+
+// function crearEtiqueta(etiqueta, texto){
+//   let nuevaEtiqueta = document.createElement(etiqueta)
+//   let nuevaTexto = document.createTextNode(texto)
+
+//   nuevaEtiqueta.appendChild(nuevaTexto)
+//   document.body.appendChild(nuevaEtiqueta)
+  
+//   }
+// crearEtiqueta("p","soy un parrafo")
+// crearEtiqueta("h3", "soy un h3")
+
+// // let contenedor = document.querySelector("#contenedor")
+
+// // const crearInterfaz = (etiqueta, texto) => {
+// //   let nuevaEtiqueta = document.createElement(etiqueta)
+// //   let nuevoTexto = 
+// //   nuevaEtiqueta.innerText = texto
+// //   contenedor.appendChild(nuevaEtiqueta)
+// // }
+// // crearInterfaz('h1', 'textoz')
